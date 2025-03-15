@@ -8,7 +8,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **PDF Upload & Processing**: Upload PDF files and extract meaningful text for AI-driven analysis.  
 - **RAG-Based Retrieval**: Uses Retrieval-Augmented Generation (RAG) to provide accurate and contextual responses.  
 - **Vector-Based Semantic Search**: Stores and retrieves document chunks using an In-Memory VectorStore.  
-- **Streaming AI Responses**: Get real-time, token-by-token responses with OpenAI & GROQ models.
+- **Streaming AI Responses**: Get real-time, token-by-token responses with GROQ models.
 - **Asynchronous API Calls**: GROQ API is executed asynchronously for faster response times and improved efficiency.
 - **Step-by-Step Query Breakdown**: AI explains its reasoning in multiple structured steps before answering.  
 - **Performance Monitoring**: Displays response time, chunk count, and PDF processing duration.  
@@ -26,8 +26,3 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 ```bash
 git clone https://github.com/enginsancak/rag_chatbot_groq-api
 cd rag_chatbot_groq-api
-
-2️⃣ Create and Activate a Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # Windows: .\venv\Scripts\activate
