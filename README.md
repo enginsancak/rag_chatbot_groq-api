@@ -28,4 +28,5 @@ git clone https://github.com/enginsancak/rag_chatbot_groq-api
 cd rag_chatbot_groq-api
 
 ### 2️⃣ Create and Activate a Virtual Environment
+```bash
 
