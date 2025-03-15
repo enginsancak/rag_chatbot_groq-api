@@ -26,7 +26,8 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 ```bash
 git clone https://github.com/enginsancak/rag_chatbot_groq-api
 cd rag_chatbot_groq-api
-### 1️⃣ Create and Activate a Virtual Environment
+
+### 2️⃣ Create and Activate a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: .\venv\Scripts\activate
