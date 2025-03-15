@@ -22,12 +22,12 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - Groq API key
 - OpenAI API key (for embeddings)
 # Installation
-###  1️⃣ Clone the Repository 
+###  1️.Clone the Repository: 
 ```bash
 git clone https://github.com/enginsancak/rag_chatbot_groq-api
 cd rag_chatbot_groq-api
-
-# Installation
-### 2️⃣ Clone the Repository 
+### 2.deneme:
 ```bash
+
+
 
