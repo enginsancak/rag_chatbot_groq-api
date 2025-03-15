@@ -2,7 +2,8 @@
 RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Streamlit. Supports PDF processing, vector search, real-time query handling, step-by-step reasoning and streaming responses.
 ## Demo Video
 [Watch the video](https://drive.google.com/file/d/1lx8npUI1FD-rJvMY75pel7lR3oZ_d7cd/view)
-## 🚀 Features  
+
+## 🌟 Features  
 
 - **PDF Upload & Processing**: Upload PDF files and extract meaningful text for AI-driven analysis.  
 - **RAG-Based Retrieval**: Uses Retrieval-Augmented Generation (RAG) to provide accurate and contextual responses.  
@@ -13,4 +14,15 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Performance Monitoring**: Displays response time, chunk count, and PDF processing duration.  
 - **Advanced Model Settings**: Customize temperature, max tokens, chunk size, and overlap via UI controls.  
 - **Persistent Chat History**: Maintains previous queries and AI responses for seamless conversations.  
-- **Clean & Interactive UI**: Built with Streamlit for a user-friendly and responsive interface.  
+- **Clean & Interactive UI**: Built with Streamlit for a user-friendly and responsive interface.
+
+## 🚀 Quick Start
+# Prerequisites
+- Python 3.8 or higher
+- Groq API key
+- OpenAI API key (for embeddings)
+# Installation
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/enginsancak/rag_chatbot_groq-api
+cd rag_chatbot_groq-api
