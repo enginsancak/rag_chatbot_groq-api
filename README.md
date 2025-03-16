@@ -49,16 +49,12 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 
 ## 📁 Project Structure
 
-deepseek-rag-chatbot/
-├── main.py                             # Main application file
-
-├── requirements.txt                    # Project dependencies
-
-├── README.md                           # Project documentation
-
-└── document_store/                     # Document storage directory
-
-└── pdfs/                               # PDF storage directory
+     deepseek-rag-chatbot/
+     ├── main.py                             # Main application file
+     ├── requirements.txt                    # Project dependencies
+     ├── README.md                           # Project documentation
+     └── document_store/                     # Document storage directory
+     └── pdfs/                               # PDF storage directory
 
 ## 💡 Usage Guide
 
