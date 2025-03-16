@@ -22,7 +22,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - Groq API key
 - OpenAI API key (for embeddings)
 # Installation
-1️. Clone the Repository:
+
 ```bash
 1️. Clone the Repository:
 
@@ -38,7 +38,7 @@ source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
 pip install -r requirements.txt
 
-## Running the Application
+# Running the Application
 streamlit run main.py
 
 
