@@ -58,6 +58,15 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 
 ## 💡 Usage Guide
 
+**1. Setup**
+- Enter your Groq API key
+- Enter your OpenAI key
+- Select a model
+- Configure advanced settings
 
+**2. Document Upload**
+- Upload a PDF document
+- Documents are stored in document_store/pdfs/
+- System processes and indexes the document
 
 
