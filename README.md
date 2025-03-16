@@ -75,7 +75,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - View the Answer
 
 **4.Advanced Settings**
-- Temperature: Control response creativity (0.0-1.0)
+- Temperature: Control response randomness (0.0-1.0)
 - Chunk Size: Adjust text processing (500-2000)
 - Chunk Overlap: Adjust context overlap (0-500)
 
@@ -84,4 +84,23 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Qwen-2.5-32b:** Balanced performance
 - **deepseek-r1-distill-llama-70b:** Best for complex tasks
 - **llama3-70b-8192:** Extended context window
+
+## 🔍 Technical Details
+**Components**
+- Frontend: Streamlit
+- RAG Implementation: LangChain
+- Embeddings: OpenAI Text Embeddings
+- LLM Provider: Groq
+- PDF Processing: PDFPlumber
+- Text Splitting: RecursiveCharacterTextSplitter
+- Vector Store: InMemoryVectorStore
+
+**Process Flow**
+1. Document Upload → PDF Processing → Text Chunking
+2. Chunk Embedding → Vector Storage
+3. Query Processing → Context Retrieval
+4. Asynchronous LLM Processing → Streaming Response
+
+## ⚙️ Configuration Options
+![image](https://github.com/user-attachments/assets/c99e5e79-2a31-4780-b65c-de2ce14a608a)
 
