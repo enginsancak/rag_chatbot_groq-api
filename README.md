@@ -48,7 +48,7 @@ streamlit run main.py
 **2. Open your browser and navigate to http://localhost:8501**
 
 ## 📁 Project Structure
-```bash
+
 deepseek-rag-chatbot/
 ├── main.py                 # Main application file
 ├── requirements.txt       # Project dependencies
