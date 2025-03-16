@@ -69,4 +69,14 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - Documents are stored in document_store/pdfs/
 - System processes and indexes the document
 
+**3.Chatting**
+- Ask questions about your document
+- View the AI's thinking process
+- View the Answer
+
+**4.Advanced Settings**
+- Temperature: Control response creativity (0.0-1.0)
+- Chunk Size: Adjust text processing (500-2000)
+- Chunk Overlap: Adjust context overlap (0-500)
+
 
