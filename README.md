@@ -31,9 +31,9 @@ cd rag_chatbot_groq-api
 
 **2. Create and activate a virtual environment:**
    
-   python -m venv venv
+       python -m venv venv
 
-   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+      source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
 **3. Install dependencies:**
 
