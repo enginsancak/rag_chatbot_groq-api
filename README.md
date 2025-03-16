@@ -87,13 +87,13 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 
 ## 🔍 Technical Details
 **Components**
-- Frontend: Streamlit
-- RAG Implementation: LangChain
-- Embeddings: OpenAI Text Embeddings
-- LLM Provider: Groq
-- PDF Processing: PDFPlumber
-- Text Splitting: RecursiveCharacterTextSplitter
-- Vector Store: InMemoryVectorStore
+- **Frontend:** Streamlit
+- **RAG Implementation:** LangChain
+- **Embeddings:** OpenAI Text Embeddings
+- **LLM Provider:** Groq
+- **PDF Processing:** PDFPlumber
+- **Text Splitting:** RecursiveCharacterTextSplitter
+- **Vector Store:** InMemoryVectorStore
 
 **Process Flow**
 1. Document Upload → PDF Processing → Text Chunking
