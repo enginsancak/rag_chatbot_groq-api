@@ -101,5 +101,11 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 3. Query Processing → Context Retrieval
 4. Asynchronous LLM Processing → Streaming Response
 
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👥 Support
+Feel free to contact me on linkedin : https://www.linkedin.com/in/engin-sancak
+
 
 
