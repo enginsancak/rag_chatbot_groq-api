@@ -25,9 +25,11 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 1️. Clone the Repository:
 git clone https://github.com/enginsancak/rag_chatbot_groq-api
 cd rag_chatbot_groq-api
+
 2. Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+
 3. Install dependencies:
 pip install -r requirements.txt
 
