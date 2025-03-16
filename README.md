@@ -101,6 +101,5 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 3. Query Processing → Context Retrieval
 4. Asynchronous LLM Processing → Streaming Response
 
-## ⚙️ Configuration Options
-![image](https://github.com/user-attachments/assets/c99e5e79-2a31-4780-b65c-de2ce14a608a)
+
 
