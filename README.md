@@ -54,7 +54,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
      ├── requirements.txt                    # Project dependencies
      ├── README.md                           # Project documentation
      └── document_store/                     # Document storage directory
-     └── pdfs/                               # PDF storage directory
+         └── pdfs/                               # PDF storage directory
 
 ## 💡 Usage Guide
 
