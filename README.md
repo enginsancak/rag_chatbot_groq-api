@@ -79,4 +79,9 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - Chunk Size: Adjust text processing (500-2000)
 - Chunk Overlap: Adjust context overlap (0-500)
 
+## 🔧 Available Models
+- **llama-3.3-70b-versatile:** Versatile and powerful
+- **Qwen-2.5-32b:** Balanced performance
+- **deepseek-r1-distill-llama-70b:** Best for complex tasks
+- **llama3-70b-8192:** Extended context window
 
