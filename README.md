@@ -13,7 +13,8 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Step-by-Step Query Breakdown**: AI explains its reasoning in multiple structured steps before answering.  
 - **Performance Monitoring**: Displays response time, chunk count, and PDF processing duration.  
 - **Advanced Model Settings**: Customize temperature, max tokens, chunk size, and overlap via UI controls.  
-- **Persistent Chat History**: Maintains previous queries and AI responses for seamless conversations.  
+- **Persistent Chat History**: Maintains previous queries and AI responses for seamless conversations.
+- **Relevant Chunk Display:** Displays the most relevant document chunks in the right panel when a query is made, improving context awareness and transparency. 
 - **Clean & Interactive UI**: Built with Streamlit for a user-friendly and responsive interface.
 
 ## 🚀 Quick Start
@@ -73,6 +74,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - Ask questions about your document
 - View the AI's thinking process
 - View the Answer
+- View the most relevant chunks in the right panel
 
 **4.Advanced Settings**
 - Temperature: Control response randomness (0.0-1.0)
