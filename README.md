@@ -17,11 +17,11 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Clean & Interactive UI**: Built with Streamlit for a user-friendly and responsive interface.
 
 ## 🚀 Quick Start
-# Prerequisites
+### Prerequisites
 - Python 3.8 or higher
 - Groq API key
 - OpenAI API key (for embeddings)
-# Installation
+### Installation
 
 **1️. Clone the Repository:**
 
@@ -39,7 +39,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 
       pip install -r requirements.txt
 
-# Running the Application
+### Running the Application
 
 **1. Start the Streamlit app:**
 
