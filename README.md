@@ -16,7 +16,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Persistent Chat History**: Maintains previous queries and AI responses for seamless conversations.  
 - **Clean & Interactive UI**: Built with Streamlit for a user-friendly and responsive interface.
 
-## **🚀 Quick Start**
+## 🚀 Quick Start
 # Prerequisites
 - Python 3.8 or higher
 - Groq API key
@@ -47,7 +47,14 @@ streamlit run main.py
 
 **2. Open your browser and navigate to http://localhost:8501**
 
-
+## 📁 Project Structure
+```bash
+deepseek-rag-chatbot/
+├── main.py                 # Main application file
+├── requirements.txt       # Project dependencies
+├── README.md             # Project documentation
+└── document_store/       # Document storage directory
+    └── pdfs/            # PDF storage directory
 
 
 
