@@ -16,7 +16,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Persistent Chat History**: Maintains previous queries and AI responses for seamless conversations.  
 - **Clean & Interactive UI**: Built with Streamlit for a user-friendly and responsive interface.
 
-## 🚀 Quick Start
+## **🚀 Quick Start**
 # Prerequisites
 - Python 3.8 or higher
 - Groq API key
