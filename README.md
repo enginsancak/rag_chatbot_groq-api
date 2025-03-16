@@ -78,9 +78,9 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - View the most relevant chunks in the right panel
 
 **4.Advanced Settings**
-- Temperature: Control response randomness (0.0-1.0)
-- Chunk Size: Adjust text processing (500-2000)
-- Chunk Overlap: Adjust context overlap (0-500)
+- **Temperature:** Control response randomness (0.0-1.0)
+- **Chunk Size:** Adjust text processing (500-2000)
+- **Chunk Overlap:** Adjust context overlap (0-500)
 
 ## 🔧 Available Models
 - **llama-3.3-70b-versatile:** Versatile and powerful
