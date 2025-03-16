@@ -1,6 +1,6 @@
 # rag_chatbot_groq-api
 RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Streamlit. Supports PDF processing, vector search, real-time query handling, step-by-step reasoning and streaming responses.  GROQ API is executed asynchronously for faster response times.
-## Demo Video
+## 🎥 Demo Video
 [Watch the video](https://drive.google.com/file/d/1xjXOXr7gixmmuwZGbewaynIQMABwHoAc/view) 
 
 
