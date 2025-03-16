@@ -50,15 +50,15 @@ streamlit run main.py
 ## 📁 Project Structure
 
 deepseek-rag-chatbot/
-├── main.py                 # Main application file
+├── main.py                             # Main application file
 
-├── requirements.txt       # Project dependencies
+├── requirements.txt                    # Project dependencies
 
-├── README.md             # Project documentation
+├── README.md                           # Project documentation
 
-└── document_store/       # Document storage directory
+└── document_store/                     # Document storage directory
 
-    └── pdfs/            # PDF storage directory
+└── pdfs/                               # PDF storage directory
 
 ## 💡 Usage Guide
 
