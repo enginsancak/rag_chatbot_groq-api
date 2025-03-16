@@ -56,7 +56,7 @@ deepseek-rag-chatbot/
 └── document_store/       # Document storage directory
     └── pdfs/            # PDF storage directory
 
-
+## 💡 Usage Guide
 
 
 
