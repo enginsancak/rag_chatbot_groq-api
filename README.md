@@ -105,6 +105,10 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 3. Query Processing → Context Retrieval
 4. Asynchronous LLM Processing → Streaming Response
 
+
+## 🔮 Future Improvements
+**Vector Database:** Replacing InMemoryVectorStore with vector databases like FAISS or Qdrant enables faster and more scalable searches on larger datasets. These systems store precomputed indexes as files, allowing retrieval without the need for recalculation.
+
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
