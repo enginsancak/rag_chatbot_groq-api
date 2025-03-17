@@ -107,12 +107,12 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 
 
 ## 🔮 Future Improvements
-**Optimized Vector Search:** Replacing InMemoryVectorStore with vector databases like FAISS or Qdrant enables faster and more scalable searches on larger datasets. These systems store precomputed indexes as files, allowing retrieval without the need for recalculation.
-**Hybrid Search:** A hybrid search can be implemented by combining BM25 for keyword-based retrieval with semantic search, improving result accuracy. 
-**Reranking:** Integrate a reranking mechanism to refine search results by prioritizing the most relevant chunks.
-**Drag & Drop Multiple File Support:** Support for multiple PDF uploads can be added, allowing users to index and search across multiple sources simultaneously.
-**Session-based Memory:** Implement session-based memory to retain previous interactions, allowing the model to provide more context-aware responses without reprocessing every query.
-**Validation Mechanism:** Implement a validation mechanism to assess the accuracy of generated responses. This will include:
+- **Optimized Vector Search:** Replacing InMemoryVectorStore with vector databases like FAISS or Qdrant enables faster and more scalable searches on larger datasets. These systems store precomputed indexes as files, allowing retrieval without the need for recalculation.
+- **Hybrid Search:** A hybrid search can be implemented by combining BM25 for keyword-based retrieval with semantic search, improving result accuracy. 
+- **Reranking:** Integrate a reranking mechanism to refine search results by prioritizing the most relevant chunks.
+- **Drag & Drop Multiple File Support:** Support for multiple PDF uploads can be added, allowing users to index and search across multiple sources simultaneously.
+- **Session-based Memory:** Implement session-based memory to retain previous interactions, allowing the model to provide more context-aware responses without reprocessing every query.
+- **Validation Mechanism:** Implement a validation mechanism to assess the accuracy of generated responses. This will include:
 **1️⃣ Semantic Similarity Scoring** using SBERT to measure how closely responses align with retrieved document chunks.
 **2️⃣ LLM-Based Fact Checking** to verify if the generated answers are supported by the source documents.
 
