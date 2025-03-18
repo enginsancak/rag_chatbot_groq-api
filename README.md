@@ -14,7 +14,6 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Step-by-Step Query Breakdown**: AI explains its reasoning in multiple structured steps before answering.  
 - **Performance Monitoring**: Displays response time, chunk count, and PDF processing duration.  
 - **Advanced Model Settings**: Customize temperature, max tokens, chunk size, and overlap via UI controls.  
-- **Persistent Chat History**: Maintains previous queries and AI responses for seamless conversations.
 - **Relevant Chunk Display:** Displays the most relevant document chunks in the right panel when a query is made, improving context awareness and transparency. 
 - **Clean & Interactive UI**: Built with Streamlit for a user-friendly and responsive interface.
 
@@ -108,10 +107,11 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 
 ## 🔮 Future Improvements
 - **Optimized Vector Search:** Replacing InMemoryVectorStore with vector databases like FAISS or Qdrant enables faster and more scalable searches on larger datasets. These systems store precomputed indexes as files, allowing retrieval without the need for recalculation.
-- **Hybrid Search:** A hybrid search can be implemented by combining BM25 for keyword-based retrieval with semantic search, improving result accuracy. 
+- **Hybrid Search Integration:** A hybrid search can be implemented by combining BM25 for keyword-based retrieval with semantic search, improving result accuracy. 
 - **Reranking:** Integrate a reranking mechanism to refine search results by prioritizing the most relevant chunks.
 - **Drag & Drop Multiple File Support:** Support for multiple PDF uploads can be added, allowing users to index and search across multiple sources simultaneously.
 - **Session-based Memory:** Implement session-based memory to retain previous interactions, allowing the model to provide more context-aware responses without reprocessing every query.
+- **Multi-Step Retrieval:** Enhance the retrieval process by implementing multi-step retrieval, allowing the system to refine search results iteratively for more accurate and contextually relevant responses.  
 - **Validation Mechanism:** Implement a validation mechanism to assess the accuracy of generated responses. This will include:
 **1️⃣ Semantic Similarity Scoring** using SBERT to measure how closely responses align with retrieved document chunks.
 **2️⃣ LLM-Based Fact Checking** to verify if the generated answers are supported by the source documents.
