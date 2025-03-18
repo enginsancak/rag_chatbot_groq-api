@@ -110,7 +110,7 @@ RAG-based chatbot using OpenAI &amp; Groq API, built with LangChain &amp; Stream
 - **Hybrid Search Integration:** A hybrid search can be implemented by combining BM25 for keyword-based retrieval with semantic search, improving result accuracy. 
 - **Reranking:** Integrate a reranking mechanism to refine search results by prioritizing the most relevant chunks.
 - **Drag & Drop Multiple File Support:** Support for multiple PDF uploads can be added, allowing users to index and search across multiple sources simultaneously.
-- **Session-based Memory:** Implement session-based memory to retain previous interactions, allowing the model to provide more context-aware responses without reprocessing every query.
+- **Session-based Memory:** Implement session-based memory to retain previous interactions, allowing the model to provide more context-aware responses.
 - **Multi-Step Retrieval:** Enhance the retrieval process by implementing multi-step retrieval, allowing the system to refine search results iteratively for more accurate and contextually relevant responses.  
 - **Validation Mechanism:** Implement a validation mechanism to assess the accuracy of generated responses. This will include:
 **1️⃣ Semantic Similarity Scoring** using SBERT to measure how closely responses align with retrieved document chunks.
